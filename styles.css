@@ -1,0 +1,47 @@
+html {
+  background-color: #000;
+}
+
+body {
+  background-color: rgb(111, 111, 111);
+  width: 50%;
+  margin: auto;
+  padding: 15px;
+}
+
+.tartalom {
+  background-color: rgb(222, 222, 222);
+  background-image: url('./images/dinamo.jpg');
+  background-repeat: repeat-y;
+  background-position: right top;
+  background-size: 115px;
+  padding-right: 125px;
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#kep {
+  float: left;
+  padding-right: 15px;
+  width: 200px;
+}
+
+h1, h2 {
+  font-variant: small-caps;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.belso {
+  text-align: justify;
+  text-indent: 30px;
+}
+
+.tudos {
+  background-color: rgb(111, 111, 111);
+  color: #fff;
+  font-size: 80%;
+  padding: 10px;
+  margin: 5px;
+}
